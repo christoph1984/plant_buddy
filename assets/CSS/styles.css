@@ -1,0 +1,117 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+/* Coolers pallete https: //coolors.co/06aed5-086788-f0c808-fff1d0-dd1c1a */
+
+/* Reset some default browser styles */
+html,
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #FFFC99;
+    color: #333;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #BCD39C;
+    color: #3B3622;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+
+/* Basic Styles */
+body {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: right;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .line {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px auto;
+    }
+}
+
+
+/* Style main content sections */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFFC99;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
