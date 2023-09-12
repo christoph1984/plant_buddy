@@ -93,7 +93,7 @@ li a,
 
 li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: green;
 }
 
 li.dropdown {
@@ -124,8 +124,26 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-</style>
-</head>
+
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 0;
+    color: white;
+}
+
+
 
 
 /* Responsive Styles */
@@ -156,7 +174,7 @@ li.dropdown {
         background-color: #fff;
         margin: 5px auto;
     }
-}
+
 
 
 /* Style main content sections */
@@ -170,7 +188,7 @@ main {
 /* Style the footer */
 footer {
     text-align: center;
-    padding: 10px;
+    padding: ;
     background-color: #333;
     color: #fff;
 }
