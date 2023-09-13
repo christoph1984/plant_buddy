@@ -188,7 +188,7 @@ main {
 /* Style the footer */
 footer {
     text-align: center;
-    padding: ;
+    padding: 0;
     background-color: #333;
     color: #fff;
 }
