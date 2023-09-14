@@ -142,6 +142,27 @@ li.dropdown {
     max-width: 50%;
     margin: 50px;
 }
+/* African Daisy page styles */
+.layout {
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(2, auto);
+    gap: 8px;
+    justify-content: end;
+}
+.layout div {
+    text-align: center;
+    padding: 10px;
+}
+
+.layout p {
+    font-size: 60%;
+}
 
 /* Contact Page Styles */
 /* Style the form element with a border around it */
