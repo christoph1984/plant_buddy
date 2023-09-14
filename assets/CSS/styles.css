@@ -140,6 +140,7 @@ li.dropdown {
 .content {
     flex: 1;
     max-width: 50%;
+    margin: 50px;
 }
 
 @media (max-width: 768px) {
