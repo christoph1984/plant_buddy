@@ -143,42 +143,23 @@ li.dropdown {
     margin: 50px;
 }
 /* African Daisy page styles */
-.layout {
-    width: auto;
-    height: auto;
-    float: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: ;
-
-    display: grid;
-    grid-template-rows: repeat(6, auto);
-    grid-template-columns: repeat(2, auto);
-    gap: 8px;
-    justify-content: end;
-}
-.layout div {
-    text-align: justify;
-    display: inline;
-    padding: 10px;
-}
-
-.layout p {
-    font-size: 60%;
+.flower_heading {
+    padding: 20px 20px;
 }
 
 #african_daisy_img {
     float: left;
-    display: inline-block;
-    margin: 50px;
+    display: block;
+    margin: 0px 20px;
     width: 40%;
 }
 
 #african_daisy {
     float: right;
-    display: inline-block;
-    margin: 50px;
-    width: 40%;
+    display: block;
+    margin-top: 0px;
+    margin-right: 50px;
+    width: 50%;
     }
 
 /* Contact Page Styles */
