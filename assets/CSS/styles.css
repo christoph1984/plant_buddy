@@ -146,8 +146,10 @@ li.dropdown {
 .layout {
     width: auto;
     height: auto;
+    float: right;
     margin-left: 50px;
-    margin-top: 50px;
+    margin-right: 50px;
+    margin-top: ;
 
     display: grid;
     grid-template-rows: repeat(6, auto);
@@ -156,13 +158,28 @@ li.dropdown {
     justify-content: end;
 }
 .layout div {
-    text-align: center;
+    text-align: justify;
+    display: inline;
     padding: 10px;
 }
 
 .layout p {
     font-size: 60%;
 }
+
+#african_daisy_img {
+    float: left;
+    display: inline-block;
+    margin: 50px;
+    width: 40%;
+}
+
+#african_daisy {
+    float: right;
+    display: inline-block;
+    margin: 50px;
+    width: 40%;
+    }
 
 /* Contact Page Styles */
 /* Style the form element with a border around it */
