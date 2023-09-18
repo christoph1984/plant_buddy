@@ -64,6 +64,11 @@ header {
     margin-right: 20px;
 }
 
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .nav-links a {
     text-decoration: none;
     color: #fff;
