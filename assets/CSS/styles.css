@@ -90,28 +90,55 @@ header {
 
 /* African Daisy page styles */
 .flower_heading {
-    padding: 20px 20px;
+    padding-top: 2em;
+    padding-left: 20px;
+    padding-bottom: 1em;
 }
 
 #african_daisy_img {
-    float: left;
-    display: flex;
-    margin: 0px 20px;
-    width: 40%;
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
 }
 
-#african_daisy {
+/* #african_daisy {
     float: right;
     display: inline;
     margin-top: 0px;
     margin-right: 50px;
     width: 50%;
-    }
+    } */
 
-.five_steps_list {
+/* .five_steps_list {
     display: flex;
-    flex-direction: ;
+    flex-direction: column;
     width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    order: 1;
+}  */
+
+.flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 600px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 80px;
+    justify-content: center;
 }
 
 /* Contact Page Styles */
