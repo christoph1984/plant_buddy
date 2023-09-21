@@ -33,6 +33,9 @@ header {
     text-align: center;
 }
 
+
+
+
 /* Style the navigation menu */
 
 /* Basic Styles */
@@ -47,6 +50,10 @@ header {
     background-color: #2274A5;
     color: #fff;
     padding: 20px;
+}
+
+#plant_buddy {
+    font-size: 200%;
 }
 
 .navbar {
@@ -78,9 +85,9 @@ header {
 
 .hero {
    text-align: center; 
-   margin-top: 1em;
+   margin-top: 0.5em;
    /* background-color: #BCD39C; */
-   padding: 50px;
+   padding: 40px;
    width: auto;
    object-fit: contain;
   }
@@ -142,6 +149,9 @@ header {
     font-size: 80px;
     justify-content: center;
 }
+
+/* Grow Page styles */
+
 
 /* Contact Page Styles */
 /* Style the form element with a border around it */
@@ -218,14 +228,18 @@ input[type=submit]:hover {
         position: absolute;
         top: 50px;
         left: 0;
-        background-color: #4B7F52;
+        background-color: #2274A5;
         width: 100%;
         text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
         
     }
 }
         .nav-links li {
             margin-left: 20px;
+            padding-top: 5px;
+                padding-bottom: 5px;
         }
 
     .line {
