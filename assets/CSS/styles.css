@@ -53,6 +53,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: right;
+    
 }
 
 .nav-links {
@@ -67,6 +68,7 @@ header {
 .navbar a {
     text-decoration: none;
     color: #fff;
+    float: left;
 }
 
 .nav-links a {
@@ -211,7 +213,7 @@ input[type=submit]:hover {
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
     .nav-links {
-        /* display: none; */
+        display: flex;
         flex-direction: column;
         position: absolute;
         top: 50px;
@@ -219,11 +221,13 @@ input[type=submit]:hover {
         background-color: #333;
         width: 100%;
         text-align: center;
+        
     }
 }
-    /* .nav-links.active {
-        display: flex;
-    } */
+        .nav-links li {
+            margin-left: 20px;
+        }
+        
     .line {
         width: 25px;
         height: 3px;
