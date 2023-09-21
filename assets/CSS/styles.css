@@ -97,7 +97,7 @@ header {
     padding-top: 20px;
 }
 
-div, h2 {
+.hero, h2 {
     text-align: center;
 }
 
