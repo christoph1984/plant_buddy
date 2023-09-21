@@ -97,6 +97,14 @@ header {
     padding-top: 20px;
 }
 
+div, h2 {
+    text-align: center;
+}
+
+.weatherwidget-io {
+    margin-bottom: 50px;
+}
+
 /* African Daisy page styles */
 .flower_heading {
     padding-top: 2em;
