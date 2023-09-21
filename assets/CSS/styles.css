@@ -20,8 +20,8 @@ a {
 
 /* Set a background color and text color for the entire page */
 body {
-    background-color: #FFFC99;
-    color: #333;
+    background-color: #E7DFC6;
+    color: #131B23;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -44,7 +44,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #2274A5;
     color: #fff;
     padding: 20px;
 }
@@ -146,13 +146,13 @@ header {
 /* Contact Page Styles */
 /* Style the form element with a border around it */
 form {
-    border: 4px solid #FFFC99;
+    border: 4px solid #E7DFC6;
 }
 
 /* Add some padding and a grey background color to containers */
 .container {
     padding: 10px;
-    background-color: #FFFC99;
+    background-color: #E7DFC6;
 }
 
 /* Style the input elements and the submit button */
@@ -190,7 +190,7 @@ input[type=submit]:hover {
 }
 /* Footer */
 #social-networks {
-    background-color: #333;
+    background-color: #4B7F52;
     text-align: center;
     padding: 1rem;
     display: flex;
@@ -218,7 +218,7 @@ input[type=submit]:hover {
         position: absolute;
         top: 50px;
         left: 0;
-        background-color: #333;
+        background-color: #4B7F52;
         width: 100%;
         text-align: center;
         
@@ -227,7 +227,7 @@ input[type=submit]:hover {
         .nav-links li {
             margin-left: 20px;
         }
-        
+
     .line {
         width: 25px;
         height: 3px;
@@ -242,13 +242,13 @@ main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #FFFC99;
+    background-color: #E7DFC6;
 }
 
 /* Style the footer */
 footer {
     text-align: center;
     padding: 0;
-    background-color: #333;
+    background-color: #4B7F52;
     color: #fff;
 }
