@@ -159,6 +159,10 @@ header {
     justify-content: center;
 }
 
+.five_steps_list li {
+    padding: 5px;
+}
+
 /* Grow Page styles */
 
 
@@ -182,7 +186,6 @@ form {
 .container {
     padding: 10px;
     background-color: #E7DFC6;
-    margin-bottom: ;
 }
 
 /* Style the input elements and the submit button */
