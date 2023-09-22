@@ -30,7 +30,7 @@ header {
     background-color: #BCD39C;
     color: #3B3622;
     padding: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 
@@ -85,7 +85,7 @@ header {
 
 .hero {
    text-align: center; 
-   margin-top: 0.5em;
+   margin-top: 20px;
    /* background-color: #BCD39C; */
    padding: 40px;
    width: auto;
@@ -146,6 +146,7 @@ header {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 60px;
+    padding-right: 20px;
 }
 
 .flex-container>div {
@@ -162,6 +163,16 @@ header {
 
 
 /* Contact Page Styles */
+
+#contact_page_img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+}
 /* Style the form element with a border around it */
 form {
     border: 4px solid #E7DFC6;
@@ -171,6 +182,7 @@ form {
 .container {
     padding: 10px;
     background-color: #E7DFC6;
+    margin-bottom: ;
 }
 
 /* Style the input elements and the submit button */
@@ -267,10 +279,43 @@ main {
     background-color: #E7DFC6;
 }
 
+.hero {
+    margin-top: 50px;
+}
+
+.hero p {
+    text-align: justify;
+}
+
+.grow_links_container {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.flower_container {
+    margin-top: 50px;
+}
+
+.flex-container {
+    padding-right: 20px;
+    }
+
+#contact_page_img {
+            width: 75%;
+            height: auto;
+            object-fit: cover;
+            text-align: center;
+            margin: auto;
+            display: block;
+            padding-bottom: 20px;
+            padding-top: 100px;
+    }
+
 /* Style the footer */
 footer {
     text-align: center;
     padding: 0;
     background-color: #4B7F52;
     color: #fff;
+   
 }
