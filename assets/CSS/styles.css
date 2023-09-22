@@ -222,7 +222,8 @@ input[type=submit]:hover {
 #social-networks {
     background-color: #4B7F52;
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
