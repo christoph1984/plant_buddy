@@ -169,7 +169,7 @@ header {
 }
 
 .grow_list {
-    list-style: none;
+    /* list-style: none; */
     padding-bottom: 10px;
 }
 
@@ -254,7 +254,7 @@ input[type=submit]:hover {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
+ }
 
 #social-networks i {
     font-size: 160%;
@@ -315,9 +315,10 @@ main {
 .grow_links_container {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 75px;
 }
 
 .flower_container {
