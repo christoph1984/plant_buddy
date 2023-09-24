@@ -164,6 +164,10 @@ header {
 }
 
 /* Grow Page styles */
+#grow_page_heading {
+    padding-top: 75px;
+}
+
 .grow_list {
     list-style: none;
     padding-bottom: 10px;
@@ -172,13 +176,13 @@ header {
 .grow_links_container {
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 20px;
     text-align: center;
 }
 
 .grow_links_container img {
-    width: 75%;
+    width: 60%;
     height: auto;
     object-fit: cover;
 }
@@ -311,8 +315,9 @@ main {
 .grow_links_container {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .flower_container {
@@ -322,6 +327,12 @@ main {
 .flex-container {
     padding-right: 20px;
     }
+
+        #grow_page_heading {
+            margin-top: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
 #contact_page_img {
             width: 75%;
