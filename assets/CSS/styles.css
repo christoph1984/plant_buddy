@@ -164,8 +164,24 @@ header {
 }
 
 /* Grow Page styles */
+.grow_list {
+    list-style: none;
+    padding-bottom: 10px;
+}
 
+.grow_links_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 20px;
+    text-align: center;
+}
 
+.grow_links_container img {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+}
 /* Contact Page Styles */
 
 #contact_page_img {
@@ -293,6 +309,8 @@ main {
 }
 
 .grow_links_container {
+    display: flex;
+    flex-direction: column;
     margin-top: 100px;
     margin-left: 20px;
 }
