@@ -113,7 +113,7 @@ header {
 }
 
 #african_daisy_img {
-    width: 75%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     text-align: center;
@@ -182,14 +182,14 @@ header {
 }
 
 .grow_links_container img {
-    width: 60%;
+    width: 50%;
     height: auto;
     object-fit: cover;
 }
 /* Contact Page Styles */
 
 #contact_page_img {
-    width: 75%;
+    width: 50%;
     height: auto;
     object-fit: cover;
     text-align: center;
