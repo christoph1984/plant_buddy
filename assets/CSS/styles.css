@@ -61,6 +61,7 @@ header {
     justify-content: space-between;
     align-items: right;
     
+    
 }
 
 .nav-links {
@@ -253,7 +254,7 @@ input[type=submit]:hover {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
  }
