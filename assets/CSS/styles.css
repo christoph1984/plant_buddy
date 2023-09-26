@@ -258,6 +258,10 @@ input[type=submit]:hover {
 .five_steps_container {
     width: 75%;
 }
+
+#home_button {
+    display: none;
+}
 }
 /* Footer */
 #social-networks {
