@@ -105,6 +105,11 @@ header {
 }
 
 /* African Daisy page styles */
+
+.grow_page_link {
+    padding-left: 20px;
+}
+
 .flower_heading {
     padding-top: 2em;
     padding-left: 20px;
@@ -148,6 +153,10 @@ header {
     padding-right: 20px;
 }
 
+.flower_container {
+    padding-bottom: 20px;
+}
+
 .flex-container>div {
     background-color: #f1f1f1;
     width: 600px;
@@ -156,6 +165,10 @@ header {
     line-height: 75px;
     font-size: 80px;
     justify-content: center;
+}
+
+.five_steps_container {
+    width: 60%;
 }
 
 .five_steps_list li {
@@ -242,6 +255,9 @@ input[type=submit]:hover {
     .column {
         width: 100%;
     }
+.five_steps_container {
+    width: 75%;
+}
 }
 /* Footer */
 #social-networks {
