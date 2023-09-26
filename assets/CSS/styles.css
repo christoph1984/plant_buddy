@@ -18,6 +18,10 @@ a {
     border: 0;
 }
 
+body {
+    height: 100vh;
+}
+
 /* Set a background color and text color for the entire page */
 body {
     background-color: #E7DFC6;
@@ -31,6 +35,7 @@ header {
     color: #3B3622;
     padding: 20px;
     text-align: justify;
+   
 }
 
 
@@ -50,6 +55,8 @@ header {
     background-color: #2274A5;
     color: #fff;
     padding: 20px;
+    /* position: fixed;
+    width: 100%; */
 }
 
 #plant_buddy {
@@ -59,7 +66,7 @@ header {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: right;     
+    /* align-items: right;    */
 }
 
 .nav-links {
@@ -259,6 +266,10 @@ input[type=submit]:hover {
     width: 75%;
 }
 
+body {
+    height: 100vh;
+}
+
 #home_button {
     display: none;
 }
@@ -314,8 +325,6 @@ input[type=submit]:hover {
         background-color: #fff;
         margin: 5px auto;
     }
-
-
 
 /* Style main content sections */
 main {
