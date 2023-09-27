@@ -34,6 +34,7 @@ header {
     padding: 20px;
     text-align: justify;
 }
+
 /* Style the navigation menu */
 
 /* Basic Styles */
@@ -80,19 +81,20 @@ header {
 }
 
 .hero {
-   text-align: center; 
-   margin-top: 20px;
-   padding-bottom: 40px;
-   width: auto;
-   object-fit: contain;
-  }
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    width: auto;
+    object-fit: contain;
+}
 
-.hero_img {     
+.hero_img {
     width: 75%;
     padding-top: 20px;
 }
 
-.hero, h2 {
+.hero,
+h2 {
     text-align: center;
 }
 
@@ -176,6 +178,7 @@ header {
     height: auto;
     object-fit: cover;
 }
+
 /* Contact Page Styles */
 
 #contact_page_img {
@@ -187,6 +190,7 @@ header {
     display: block;
     padding-bottom: 20px;
 }
+
 /* Style the form element with a border around it */
 form {
     border: 4px solid #E7DFC6;
@@ -233,18 +237,20 @@ input[type=submit]:hover {
     .column {
         width: 100%;
     }
-.five_steps_container {
-    width: 75%;
+
+    .five_steps_container {
+        width: 75%;
+    }
+
+    body {
+        height: 100vh;
+    }
+
+    #home_button {
+        display: none;
+    }
 }
 
-body {
-    height: 100vh;
-}
-
-#home_button {
-    display: none;
-}
-}
 /* Footer */
 #social-networks {
     background-color: #4B7F52;
@@ -256,13 +262,14 @@ body {
     list-style-type: none;
     bottom: 0;
     width: 100%;
- }
+}
 
 #social-networks i {
     font-size: 160%;
     padding: 0;
     color: white;
 }
+
 /* Responsive Styles */
 @media screen and (max-width: 600px) {
     .nav-links {
@@ -275,21 +282,22 @@ body {
         width: 100%;
         text-align: center;
         padding-top: 10px;
-        padding-bottom: 10px;  
+        padding-bottom: 10px;
     }
 }
-        .nav-links li {
-            margin-left: 20px;
-            padding-top: 5px;
-                padding-bottom: 5px;
-        }
 
-    .line {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 5px auto;
-    }
+.nav-links li {
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.line {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px auto;
+}
 
 /* Style main content sections */
 main {
@@ -322,28 +330,29 @@ main {
 
 .flex-container {
     padding-right: 20px;
-    }
+}
 
-        #grow_page_heading {
-            margin-top: 30px;
-            padding-left: 10px;
-            padding-right: 10px;
-        }
+#grow_page_heading {
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
 #contact_page_img {
-            width: 50%;
-            height: auto;
-            object-fit: cover;
-            text-align: center;
-            margin: auto;
-            display: block;
-            padding-bottom: 20px;
-            padding-top: 100px;
-    }
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+    padding-top: 100px;
+}
+
 form {
     width: 70%;
     margin-left: 15%
-}    
+}
 
 
 /* Style the footer */
@@ -352,5 +361,5 @@ footer {
     padding: 0;
     background-color: #4B7F52;
     color: #fff;
-   
+
 }
