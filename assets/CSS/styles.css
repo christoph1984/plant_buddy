@@ -18,15 +18,13 @@ a {
     border: 0;
 }
 
-body {
-    height: 100vh;
-}
 
 /* Set a background color and text color for the entire page */
 body {
     background-color: #E7DFC6;
     color: #131B23;
     font-family: 'Josefin Sans', sans-serif;
+    height: 100vh;
 }
 
 /* Style the header */
