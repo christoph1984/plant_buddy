@@ -1,6 +1,6 @@
 # Welcome to Plant Buddy
 
-Plant Buddy is a small, self contained static website, built using HTML & CSS. The content is themed around providing handy tips and guides to beginner gardeners. As such the site is intended for use on mobile devices primarily (as the user might be in the garden when they need assistance), however the site is also responsive, so functions well on larger screens as well. Accessibility is a key consideration due to the demographic of gardening enthusiasts generally being over 50 years old. 
+Plant Buddy is a small, self contained static website, built using HTML & CSS. The content is themed around providing handy tips and guides to beginner gardeners. As such the site is intended for use on mobile devices primarily (as the user might be in the garden when they need assistance), however the site is also responsive, so functions well on larger screens as well. Accessibility is a key consideration due to the demographic of gardening enthusiasts generally being over 50 years old.
 
 ![Plant Buddy Mockup Images](assets/readme-files/am_i_responsive.jpg)
 
@@ -45,8 +45,18 @@ Both fields are validated so won’t allow a blank name or non-email address res
 
 ## Design 
 
-* Wireframes from Lucid
+### Wireframes from Lucid
 
+* Wireframe design for larger screens:
+<br>
+![Lucid Wireframe Large Screen](assets/readme-files/lucid_large_screen.png)
+
+* Wireframe design for mobile screens:
+<br>
+![Lucid Wireframe Mobile Screen](assets/readme-files/lucid_mobile_screen.png)
+
+### Palette choice (from Coolers)
+![Lucid Wireframe Mobile Screen](assets/readme-files/coolers_palette.png)
 
 ## Testing
 
@@ -58,6 +68,12 @@ Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
 Safari | No appearance, responsiveness nor functionality issues. | Pass
 Mozilla Firefox | Scrollbar is visible even though it should be hidden. <br>No responsiveness nor functionality issues.| Pass
 Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+
+* Lighthouse testing
+
+Site tested in Lighthouse throughout development
+<br>
+![Lucid Wireframe Mobile Screen](assets/readme-files/lighthouse.png)
 
 ### W3C validation HTML
 ![W3C Index Page Validation](assets/images/w3c_index.png)
