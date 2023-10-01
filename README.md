@@ -43,6 +43,11 @@ Below the image is a simple 5-step guide to growing and caring for the flower in
 Allows the user to sign up to the Plant Buddy newsletter.
 Both fields are validated so won’t allow a blank name or non-email address response.
 
+## Design 
+
+* Wireframes from Lucid
+
+
 ## Testing
 
 * Browser Compatibility
@@ -125,6 +130,7 @@ Wait until you can see a link for deployed page within GitHub Page section. This
 * CSS-Tricks - 
 * W3Schools
 * Google
+* Lucid - for wireframe design
 * A code snippet for the footer was adapted from the Love Running Project.
 * Love Running Project - for general guidance.
 * A code snippet for responsive navbar cards was adapted from W3Schools.
