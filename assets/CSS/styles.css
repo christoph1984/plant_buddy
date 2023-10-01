@@ -109,6 +109,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+#padding {
+    min-height: 100px;  
+}
+
 /* African Daisy page styles */
 
 .grow_page_link {
