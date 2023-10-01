@@ -28,8 +28,10 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 #footer {
     margin-top: auto;
+    margin-bottom: 0;
 } 
 
 /* Style the header */
@@ -119,7 +121,7 @@ h2 {
     padding-bottom: 1em;
 }
 
-#african_daisy_img {
+.flower_img {
     width: 50%;
     height: auto;
     object-fit: cover;
