@@ -4,6 +4,13 @@ Plant Buddy is a small, self contained static website, built using HTML & CSS. T
 
 ![Plant Buddy Mockup Images](assets/readme-files/am_i_responsive.jpg)
 
+## Table of contents:
+- [Plant Buddy](#welcome-to-plant-buddy)
+  - [Table of contents](#table-of-contents)
+  - [UX Design](#ux-design)
+  - [Structure](#structure)
+    - [Home Page](#home-page)
+
 
 ## Key features:
 
@@ -12,51 +19,51 @@ Navigation bar with simple, prioritised links that will take the user directly t
 Four additional pages, three featuring one 5-step growing guide and one featuring a newsletter sign-up form.
 
 
-
 ## UX Design
 
 First time user:
-Should easily understand the purpose of the website, at a glance.
-Should be able to easily and intuitively navigate the website in order to find the desired information.
-Should be able so easily sign up to receive the Plant Buddy news letter.
-Should be able to quickly locate the Plant Buddy social network links.
+* Should easily understand the purpose of the website, at a glance.
+* Should be able to easily and intuitively navigate the website in order to find the desired information.
+* Should be able so easily sign up to receive the Plant Buddy news letter.
+* Should be able to quickly locate the Plant Buddy social network links.
+<br>
 All the users want to be able to access and view the website comfortably on mobile and tablet devices.
 
 ## Structure
 
 ### Home Page
-Introduces the website and why it might be useful for the user.
-Grabs user's attention with a striking image and simple navigation bar to easily allow the user to navigate through the site. When the site is viewed on a mobile device, the nav bar stacks and removes the Home button.
-An IFRAME containing a live weather forecast is also included to aid a potential user who is planning to go outside in to their garden.
-A Social Media footer containing four links to external sites (repeated on all pages). 
+* Introduces the website and why it might be useful for the user.
+* Grabs user's attention with a striking image and simple navigation bar to easily allow the user to navigate through the site. When the site is viewed on a mobile device, the nav bar stacks and removes the Home button.
+* An IFRAME containing a live weather forecast is also included to aid a potential user who is planning to go outside in to their garden.
+* A Social Media footer containing four links to external sites (repeated on all pages). 
 
 ### Grow Page
-Provides users with links to each of the flower types that Plant Buddy currently has guides for.
-Each of these links is contained within an image of the flower, so the user knows straight away which flower is which, as they might not know the name, but recognise the image.
+* Provides users with links to each of the flower types that Plant Buddy currently has guides for.
+* Each of these links is contained within an image of the flower, so the user knows straight away which flower is which, as they might not know the name, but recognise the image.
 
 ### Plant Page(s)
-Each page contains an image of the flower in question.
-Under the heading of the flower, there is a link to take the user back to the Grow page.
-Below the image is a simple 5-step guide to growing and caring for the flower in question.
+* Each page contains an image of the flower in question.
+* Under the heading of the flower, there is a link to take the user back to the Grow page.
+* Below the image is a simple 5-step guide to growing and caring for the flower in question.
 
 ### Contact Page
-Allows the user to sign up to the Plant Buddy newsletter.
-Both fields are validated so won’t allow a blank name or non-email address response.
+* Allows the user to sign up to the Plant Buddy newsletter.
+* Both fields are validated so won’t allow a blank name or non-email address response.
 
 ## Design 
 
 ### Wireframes from Lucid
 
 * Wireframe design for larger screens:
-<br>
+
 ![Lucid Wireframe Large Screen](assets/readme-files/lucid_large_screen.png)
 
 * Wireframe design for mobile screens:
-<br>
+
 ![Lucid Wireframe Mobile Screen](assets/readme-files/lucid_mobile_screen.png)
 
 ### Palette choice (from Coolers)
-![Lucid Wireframe Mobile Screen](assets/readme-files/coolers_palette.png)
+![Coolers palette screenshot](assets/readme-files/coolers_palette.png)
 
 ## Testing
 
@@ -83,22 +90,27 @@ Site tested in Lighthouse throughout development
 ![W3C CSS file Validation](assets/images/w3c_css.png)
 
 ## Version Control
-
-The website was developed through Codeanywhere IDE.
-Code has been pushed to repository on Github with following git commands:
-git add . - to add files ready to commit
-git commit -m "message" - to commit the code to local repository ready to be pushed
-git push - final command used to push committed code to remote repo on Github
+<ul>
+<li>The website was developed through Codeanywhere IDE.</li>
+<li>Code has been pushed to repository on Github with following git commands:</li>
+  <ul>
+  <li>git add . - to add files ready to commit</li>
+  <li>git commit -m "message" - to commit the code to local repository ready to be pushed</li>
+  <li>git push - final command used to push committed code to remote repo on Github</li>
+  </ul> 
+</ul>
 
 ### Cloning the Repository
-Navigate to the GitHub Repository 'christoph1984/plant_buddy'
-Click 'Code' drop down menu - a green button shown right above the file list.
-Copy the URL of the repository using 'HTTPS', 'SSH'or 'Github CLI'.
-Open Git Bash.
-Change the current working directory to the location where you want the cloned directory.
-Type 'git clone', and then paste the URL copied earlier.
-Press enter to create local clone. A clone of the repository will now be created.
-For more details on how to clone the repository in order to create a copy for own use refer to the site: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+<ul>
+  <li>Navigate to the GitHub Repository 'christoph1984/plant_buddy'</li>
+<li>Click 'Code' drop down menu - a green button shown right above the file list.</li>
+<li>Copy the URL of the repository using 'HTTPS', 'SSH'or 'Github CLI'.</li>
+<li>Open Git Bash.</li>
+<li>Change the current working directory to the location where you want the cloned directory.</li>
+<li>Type 'git clone', and then paste the URL copied earlier.</li>
+<li>Press enter to create local clone. A clone of the repository will now be created.</li>
+<li>For more details on how to clone the repository in order to create a copy for own use refer to the site: https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository.</li>
+</ul>
 
 ### Forking
 Navigate to the GitHub Repository 'christoph1984/plant_buddy’
@@ -152,4 +164,3 @@ Wait until you can see a link for deployed page within GitHub Page section. This
 * A code snippet for responsive navbar cards was adapted from W3Schools.
 * The favicon.ico image for the website.
 
->>>>>>> b305e91a9e3251ae16d355ef09a17ae593c0dbd3
