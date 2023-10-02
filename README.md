@@ -37,22 +37,33 @@ All the users want to be able to access and view the website comfortably on mobi
 * An IFRAME containing a live weather forecast is also included to aid a potential user who is planning to go outside in to their garden.
 * A Social Media footer containing four links to external sites (repeated on all pages). 
 
+![Home Page Top](assets/readme-files/home_page_top.jpg)
+
+![Home Page Bottom](assets/readme-files/home_page_bottom.jpg)
+
 ### Grow Page
 * Provides users with links to each of the flower types that Plant Buddy currently has guides for.
 * Each of these links is contained within an image of the flower, so the user knows straight away which flower is which, as they might not know the name, but recognise the image.
+
+![Grow Page](assets/readme-files/grow_page.jpg)
 
 ### Plant Page(s)
 * Each page contains an image of the flower in question.
 * Under the heading of the flower, there is a link to take the user back to the Grow page.
 * Below the image is a simple 5-step guide to growing and caring for the flower in question.
 
+![Plant Page](assets/readme-files/sunflower_page.jpg)
+
 ### Contact Page
 * Allows the user to sign up to the Plant Buddy newsletter.
 * Both fields are validated so won’t allow a blank name or non-email address response.
 
+![Contact Page](assets/readme-files/contact_page.jpg)
+
 ## Design 
 
 ### Wireframes from Lucid
+NOTE: Palette has changed since the wireframe stage was completed
 
 * Wireframe design for larger screens:
 
@@ -76,18 +87,15 @@ Safari | No appearance, responsiveness nor functionality issues. | Pass
 Mozilla Firefox | Scrollbar is visible even though it should be hidden. <br>No responsiveness nor functionality issues.| Pass
 Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
-* Lighthouse testing
+* Lighthouse testing (site tested in Lighthouse repeatedly throughout development)
 
-Site tested in Lighthouse throughout development
-<br>
 ![Lucid Wireframe Mobile Screen](assets/readme-files/lighthouse.png)
 
-### W3C validation HTML
-![W3C Index Page Validation](assets/images/w3c_index.png)
-![W3C Brief Page Validation](assets/images/w3c_brief.png)
-![W3C Contact Page Validation](assets/images/w3c_contact.png)
-### W3C validation CSS
-![W3C CSS file Validation](assets/images/w3c_css.png)
+* W3C HTML validation - PASS
+![W3C HMTL Validation](assets/readme-files/w3_html_pass.jpg)
+
+* W3C CSS validation - PASS
+![W3C CSS Page Validation](assets/readme-files/w3_css_pass.jpg)
 
 ## Version Control
 <ul>
