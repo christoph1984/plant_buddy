@@ -1,6 +1,6 @@
 # Welcome to Plant Buddy
 
-Plant Buddy is a small, self contained static website, built using HTML & CSS. The content is themed around providing handy tips and guides to beginner gardeners. As such the site is intended for use on mobile devices primarily (as the user might be in the garden when they need assistance), however the site is also responsive, so functions well on larger screens as well. Accessibility is a key consideration due to the demographic of gardening enthusiasts generally being over 50 years old.
+Plant Buddy is a small, self contained static website, built using HTML & CSS. The content is themed around providing handy tips and guides to beginner gardeners. As such the site is intended for use on mobile devices primarily (as the user might be in the garden when they need assistance), however the site is also responsive, so functions well on larger screens as well. The site could easily be expanded with further guides going forwards. 
 
 ![Plant Buddy Mockup Images](assets/readme-files/am_i_responsive.jpg)
 
@@ -29,9 +29,9 @@ Plant Buddy is a small, self contained static website, built using HTML & CSS. T
 
 ## Key features:
 
-Landing page with clear and concise information to welcome the user and explain the purpose of the site.
-Navigation bar with simple, prioritised links that will take the user directly to the information requested.
-Four additional pages, three featuring one 5-step growing guide and one featuring a newsletter sign-up form.
+* Landing page with clear and concise information to welcome the user and explain the purpose of the site.
+* Navigation bar with simple, prioritised links that will take the user directly to the information requested.
+* Four additional pages, three featuring one 5-step growing guide and one featuring a newsletter sign-up form.
 
 
 ## UX Design
@@ -97,10 +97,18 @@ NOTE: Palette has changed since the wireframe stage was completed
 
 | Browser | Test | Result  |
 --- | --- | ---
-Google Chrome | No appearance, responsiveness nor functionality issues.| Pass
-Safari | No appearance, responsiveness nor functionality issues. | Pass
-Mozilla Firefox | Scrollbar is visible even though it should be hidden. <br>No responsiveness nor functionality issues.| Pass
-Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
+Google Chrome | No appearance, responsiveness or functionality issues.| Pass
+Safari | No appearance, responsiveness or functionality issues. | Pass
+Mozilla Firefox | No responsiveness or functionality issues.| Pass
+Microsoft Edge | No appearance, responsiveness or functionality issues. | Pass
+
+* Device Compatibility
+
+| Device | Test | Result  |
+--- | --- | ---
+Google Pixel 6 Pro | No appearance, responsiveness or functionality issues.| Pass
+iPhone SE| No appearance, responsiveness or functionality issues. | Pass
+iPhone 13 | No responsiveness or functionality issues.| Pass
 
 * Lighthouse testing (site tested in Lighthouse repeatedly throughout development)
 
@@ -181,8 +189,7 @@ Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 * Google Fonts - for fonts to use in website.
 * FontAwesome for all the icons used in the website.
 * W3Schools.com - used throughout the website for general help.
-* CSS-Tricks - 
-* W3Schools
+* CSS-Tricks - for guidance with Flexbox 
 * Google
 * Forecast7.com - weather forecast widget
 * Lucid - for wireframe design
