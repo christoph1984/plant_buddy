@@ -4,12 +4,27 @@ Plant Buddy is a small, self contained static website, built using HTML & CSS. T
 
 ![Plant Buddy Mockup Images](assets/readme-files/am_i_responsive.jpg)
 
+[Link to live page](https://christoph1984.github.io/plant_buddy/)
+
 ## Table of contents:
 - [Plant Buddy](#welcome-to-plant-buddy)
   - [Table of contents](#table-of-contents)
   - [UX Design](#ux-design)
   - [Structure](#structure)
     - [Home Page](#home-page)
+    - [Grow Page](#grow-page)
+    - [Plant Pages](#plant-pages)
+    - [Contact Page](#contact-page)
+  - [Design](#design)
+    - [Wireframes from Lucid](#wireframes-from-lucid)
+    - [Palette choice from Coolers](#palette-choice-from-coolers)
+  - [Testing](#testing)
+  - [Version Control](#version-control)
+    - [Cloning the Respository](#cloning-the-repository)
+    - [Forking](#forking)
+    - [Deployment](#deployment)
+  - [Technologies](#technologies)
+  - [Credits](#credits)
 
 
 ## Key features:
@@ -47,7 +62,7 @@ All the users want to be able to access and view the website comfortably on mobi
 
 ![Grow Page](assets/readme-files/grow_page.jpg)
 
-### Plant Page(s)
+### Plant Pages
 * Each page contains an image of the flower in question.
 * Under the heading of the flower, there is a link to take the user back to the Grow page.
 * Below the image is a simple 5-step guide to growing and caring for the flower in question.
@@ -73,7 +88,7 @@ NOTE: Palette has changed since the wireframe stage was completed
 
 ![Lucid Wireframe Mobile Screen](assets/readme-files/lucid_mobile_screen.png)
 
-### Palette choice (from Coolers)
+### Palette choice from Coolers
 ![Coolers palette screenshot](assets/readme-files/coolers_palette.png)
 
 ## Testing
@@ -110,7 +125,7 @@ Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 
 ### Cloning the Repository
 <ul>
-  <li>Navigate to the GitHub Repository 'christoph1984/plant_buddy'</li>
+<li>Navigate to the GitHub Repository 'christoph1984/plant_buddy'</li>
 <li>Click 'Code' drop down menu - a green button shown right above the file list.</li>
 <li>Copy the URL of the repository using 'HTTPS', 'SSH'or 'Github CLI'.</li>
 <li>Open Git Bash.</li>
@@ -121,24 +136,27 @@ Microsoft Edge | No appearance, responsiveness nor functionality issues. | Pass
 </ul>
 
 ### Forking
-Navigate to the GitHub Repository 'christoph1984/plant_buddy’
-Click 'Fork' located towards top right corner on GitHub page.
-Select 'owner' for the forked repository from the dropdown menu under 'owner'.
-It will create forked repo under the same name as original by default. But you can type a name in 'Repository name' or add a description in 'Description' box.
-Click on 'Create fork'. A forked repo is created.
-Forking enables you to implement modifications without impacting the original project. You can propose changes by submitting a pull request. Subsequently, the Project Owner can evaluate the pull request, decide whether to accept the proposed changes, and merge them.
-When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.
+<ul>
+<li>Navigate to the GitHub Repository 'christoph1984/plant_buddy’</li>
+<li>Click 'Fork' located towards top right corner on GitHub page.</li>
+<li>Select 'owner' for the forked repository from the dropdown menu under 'owner'.</li>
+<li>It will create forked repo under the same name as original by default. But you can type a name in 'Repository name' or add a description in 'Description' box.</li>
+<li>Click on 'Create fork'. A forked repo is created.</li>
+<li>Forking enables you to implement modifications without impacting the original project. You can propose changes by submitting a pull request. Subsequently, the Project Owner can evaluate the pull request, decide whether to accept the proposed changes, and merge them.</li>
+<li>When you have fork to a repository, you don't have access to files locally on your device, for getting access you will need to clone the forked repository.</li>
+</ul>
 
 ### Deployment
-The website was deployed to Github Pages using following steps:
-Go to GitHub repository.
-Click on 'Settings'.
-Click on 'Pages'(tab on the left sidebar).
-Scroll to 'Build and deployment'/'Source' section.
-Find the sub-section 'Branch'.
-From the drop-down menu 'none'/'select branch' and choose source 'main' (or 'master').
-Click 'Save'
-Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at https://christoph1984.github.io/plant_buddy/
+<ul>
+<li>Go to GitHub repository.</li>
+<li>Click on 'Settings'.</li>
+<li>Click on 'Pages'(tab on the left sidebar).</li>
+<li>Scroll to 'Build and deployment'/'Source' section.</li>
+<li>Find the sub-section 'Branch'.</li>
+<li>From the drop-down menu 'none'/'select branch' and choose source 'main' (or 'master').</li>
+<li>Click 'Save'</li>
+<li>Wait until you can see a link for deployed page within GitHub Page section. This can take a while. Once the page updates you will see a message: Your site is live at https://christoph1984.github.io/plant_buddy/</li>
+</ul>
 
 ## Technologies
 * HTML - used to create the main structure of the website.
@@ -166,6 +184,7 @@ Wait until you can see a link for deployed page within GitHub Page section. This
 * CSS-Tricks - 
 * W3Schools
 * Google
+* Forecast7.com - weather forecast widget
 * Lucid - for wireframe design
 * A code snippet for the footer was adapted from the Love Running Project.
 * Love Running Project - for general guidance.
